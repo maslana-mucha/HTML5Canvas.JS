@@ -27,7 +27,7 @@ window.addEventListener('load', () => {
 
     ctx.lineTo(e.clientX, e.clientY);
     ctx.stroke();
-    ctx.beginPatch();
+    ctx.beginPath();
     ctx.moveTo(e.clientX, e.clientY);
   }
 
